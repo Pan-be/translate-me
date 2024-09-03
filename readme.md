@@ -10,9 +10,9 @@ Before running the script, make sure you have the following installed:
 
 You can install the necessary libraries using pip:
 
-bash
-
+```bash
 pip install pandas beautifulsoup4
+```
 
 How It Works
 
@@ -30,7 +30,6 @@ Setup
 
     The script requires a configuration file named translate_config.json, with the following structure:
 
-    json
 
 ```json
 {
@@ -48,21 +47,23 @@ Run the Script:
 
 Execute the script with Python:
 
-bash
+```bash
 
     python translate_html.py
+```
 
 Example
 
 Here’s an example of how your translate_config.json might look:
 
-json
+```json
 
 {
     "input": "translate_FR.xlsx",
     "template": "template.html",
     "output": "output_FR.html"
 }
+```
 
 This configuration will take the translations from translate_FR.xlsx, apply them to template.html, and save the translated HTML to output_FR.html.
 Important Notes
