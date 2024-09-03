@@ -32,11 +32,13 @@ Setup
 
     json
 
+```json
 {
     "input": "path_to_excel_file.xlsx",
     "template": "path_to_html_template.html",
     "output": "path_to_output_html.html"
 }
+```
 
     input: Path to the Excel file containing the translations.
     template: Path to the HTML template file.
